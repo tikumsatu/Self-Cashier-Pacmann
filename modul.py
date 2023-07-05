@@ -190,10 +190,19 @@ class Transaksi():
     Attributes:
     diskon
         menampilkan besaran diskon yang didapatkan dalam persen
+        belanja diatas 500.000 akan mendapat diskon sebesar 10% dari nilai total belanja
+        belanja diatas 300.000 akan mendapat diskon sebesar 8% dari nilai total belanja
+        belanja diatas 200.000 akan mendapat diskon sebesar 5% dari nilai total belanja
     disc
         menampilkan hasil perhitungan diskon dan total harga belanja
     pay
         menampilkan jumlah yang harus dibayar setelah dikurangi dengan diskon
+
+    Daftar belanja akhir akan ditampilkan dalam bentuk tabel
+    Terakhir akan di tampilan:
+    -nilai total belanja
+    -persentase diskon yang didapatkan
+    -nilai total yang harus dibayarkan pelanggan
     """
     if sum(self.list_belanja['Total Harga']) > 500_000:
       diskon = "Selamat anda mendapatkan diskon 10 %"
