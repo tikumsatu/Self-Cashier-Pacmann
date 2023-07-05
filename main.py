@@ -1,3 +1,5 @@
+import modul
+
 #Membuat dict penyimpanan
 list_belanja = {'Nama Item': [], 'Jumlah Item': [], 'Harga Item': [], 'Total Harga': []}
 
