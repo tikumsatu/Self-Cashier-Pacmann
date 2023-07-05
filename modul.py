@@ -1,9 +1,9 @@
 from tabulate import tabulate
 
 class Transaksi():
-"""
-Sebuah class dengan nama Transaksi untuk self-cashier
-"""
+  """
+  Sebuah class dengan nama Transaksi untuk self-cashier
+  """
 
   def __init__(self):
     """
@@ -169,10 +169,12 @@ Sebuah class dengan nama Transaksi untuk self-cashier
 
   def reset_transaction(self):
     """
-    Sebuah method yang digunakan untuk membatalkan seluruh transaksi, seluruh data dalam dict list_belanja akan dihapus
+    Sebuah method yang digunakan untuk membatalkan seluruh transaksi, seluruh data values dalam dict list_belanja akan dihapus
     """
-    self.list_belanja.clear()
+    for key in self.list_belanja:
+      del self.list_belanja[key][:]
     print('Seluruh transaksi dibatalkan','\n')
+    print(tabulate(self.list_belanja, headers = self.list_belanja.keys()),'\n')
 
   def check_order(self):
     """
