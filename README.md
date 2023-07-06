@@ -95,6 +95,14 @@ Fitur-fitur yang dibutuhkan adalah:
    
    ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/add%20item.png?raw=true)
    
-3. Test Case 2
-4. Test Case 3
-5. Test Case 4
+2. Test Case 2
+
+   Ternyata customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka customer menggunakan methode delete_item
+   untuk menghapus item. Item yang akan dihapus adalah Pasta Gigi.
+
+   Output:
+
+   ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/delete%20item.png?raw=true)
+   
+5. Test Case 3
+6. Test Case 4
