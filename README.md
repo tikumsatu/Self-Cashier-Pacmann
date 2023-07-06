@@ -87,7 +87,7 @@ Fitur-fitur yang dibutuhkan adalah:
 ## Test Case
 1. Test Case 1
 
-   Customer ingin menambahkan dua item baru menggunakan method add_item. Item yang akan ditambahkan adalah:
+   Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang akan ditambahkan adalah:
    * Nama item: Ayam Goreng, Qty: 2, Harga: 20.000
    * Nama item: Pasta Gigi, Qty: 3, Harga: 15.000
 
@@ -97,7 +97,7 @@ Fitur-fitur yang dibutuhkan adalah:
    
 2. Test Case 2
 
-   Ternyata customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka customer menggunakan methode delete_item
+   Ternyata customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka customer menggunakan methode delete_item()
    untuk menghapus item. Item yang akan dihapus adalah Pasta Gigi.
 
    Output:
@@ -107,10 +107,17 @@ Fitur-fitur yang dibutuhkan adalah:
 3. Test Case 3
 
    Ternyata setelah dipikir-pikir customer salah memasukkan item yang akan di belanjakan. Daripada menghapus satu-satu, maka customer
-   cukup menggunakan method reset_transaction untuk menghapus semua item yang sudah ditambahkan.
+   cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan.
 
    Output:
 
    ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/reset%20transaction.png?raw=true)
    
-6. Test Case 4
+4. Test Case 4
+
+   Setelah customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum
+   mengeluarkan total output belanja, akan menampilkan item-item yang di beli.
+
+   Output:
+
+   ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/reset%20transaction.png?raw=true)
