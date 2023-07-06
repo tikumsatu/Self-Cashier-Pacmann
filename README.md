@@ -104,5 +104,13 @@ Fitur-fitur yang dibutuhkan adalah:
 
    ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/delete%20item.png?raw=true)
    
-5. Test Case 3
+3. Test Case 3
+
+   Ternyata setelah dipikir-pikir customer salah memasukkan item yang akan di belanjakan. Daripada menghapus satu-satu, maka customer
+   cukup menggunakan method reset_transaction untuk menghapus semua item yang sudah ditambahkan.
+
+   Output:
+
+   ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/reset%20transaction.png?raw=true)
+   
 6. Test Case 4
