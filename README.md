@@ -73,3 +73,9 @@ Fitur-fitur yang dibutuhkan adalah:
     - Jika total belanja lebih besar dari 300.000 maka akan mendapatkan diskon sebesar 8% dari total belanja
     - Jika total belanja lebih besar dari 200.000 maka akan mendapatkan diskon sebesar 5% dari total belanja
     - Jika belanja kurang dari sama dengan 200.000 maka tidak mendapatkan diskon
+
+## Test Case
+1. Test Case 1
+2. Test Case 2
+3. Test Case 3
+4. Test Case 4
