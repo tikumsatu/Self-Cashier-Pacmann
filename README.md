@@ -84,6 +84,10 @@ Fitur-fitur yang dibutuhkan adalah:
     - Jika total belanja lebih besar dari 200.000 maka akan mendapatkan diskon sebesar 5% dari total belanja
     - Jika belanja kurang dari sama dengan 200.000 maka tidak mendapatkan diskon
 
+11. def transaksi(self):
+
+    Merupakan sebuah method yang digunakan untuk menjalankan aplikasi self-cashier.
+
 ## Test Case
 1. Test Case 1
 
