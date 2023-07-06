@@ -92,6 +92,7 @@ Fitur-fitur yang dibutuhkan adalah:
    * Nama item: Pasta Gigi, Qty: 3, Harga: 15.000
 
    Output:
+   
    ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/add%20item.png?raw=true)
    
 3. Test Case 2
