@@ -18,6 +18,8 @@ Fitur-fitur yang dibutuhkan adalah:
 
 ## Flowchart
 
+![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/Flowchart%20Cashier%20Pacmann.png?raw=true)
+
 ## Class dan Function
 1. class Transaksi():
    
