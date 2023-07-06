@@ -90,7 +90,9 @@ Fitur-fitur yang dibutuhkan adalah:
    Customer ingin menambahkan dua item baru menggunakan method add_item. Item yang akan ditambahkan adalah:
    * Nama item: Ayam Goreng, Qty: 2, Harga: 20.000
    * Nama item: Pasta Gigi, Qty: 3, Harga: 15.000
-   
+
+   Output:
+   !
 3. Test Case 2
 4. Test Case 3
 5. Test Case 4
