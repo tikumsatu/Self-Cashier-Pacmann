@@ -24,50 +24,59 @@ Fitur-fitur yang dibutuhkan adalah:
    Merupakan class yang dibangun untuk aplikasi self kasir ini
    
 3. def __init__(self):
+   
    Merupakan sebuah constructor untuk class Transaksi().
    Terdapat sebuah dict yang digunakan untuk menyimpan data masukkan.
    
-4. def add_item(self, nama_item, jumlah_item, harga_item):
+5. def add_item(self, nama_item, jumlah_item, harga_item):
+   
    Merupakan sebuah method yang digunakan untuk menambahkan item ke dalam keranjang belanja yang disimpan dalam dict list_belanja.
    Method ini menggunakan 3 inputan yaitu nama_item yang bertype string, jumlah_item yang bertype integer dan harga_item yang bertype integer.
    Jika type data yang dimasukkan tidak sesuai maka akan muncul peringatan 'Input tidak valid, silahkan input kembali dengan benar'.
    Jika method dijalankan benar maka data akan disimpan dalam dict dan ditampilkan dalam bentuk tabel
    
-5. def update_item_name(self, nama_item):
+7. def update_item_name(self, nama_item):
+   
    Merupakan sebuah method yang digunakan untuk mengubah nama_item yang sudah ditambahkan ke dalam dict.
    Method ini menggunakan inputan nama_item yang bertype string. Jika input bukan string maka akan muncul 'Input nama item tidak valid, silahkan input kembali dengan type data String'.
    Kemudian method akan melakukan eksekusi inputan update_nama dan bertype string. Jika method ini berhasil di jalankan maka nama_item dalam dict akan diubah sesuai dengan update_nama.
    Selanjutnya akan ditampilkan dalam bentuk tabel.
    
-6. def update_item_qty(self, nama_item):
+9. def update_item_qty(self, nama_item):
+    
    Merupakan sebuah method yang digunakan untuk mengubah jumlah_item yang sudah ditambahkan ke dalam dict.
    Method ini menggunakan inputan nama_item yang bertype string. Jika input bukan string maka akan muncul 'Input nama item tidak valid, silahkan input kembali dengan type data String'.
    Kemudian method akan melakukan eksekusi inputan update_jumlah dan bertype integer. Jika method ini berhasil di jalankan maka jumlah_item dalam dict akan diubah sesuai dengan update_jumlah.
    Method ini juga secara otomatis akan mengubah nilai dict['Total Harga'], yang merupakan perkalian antara jumlah_item dan harga_item.
    Selanjutnya akan ditampilkan dalam bentuk tabel.
    
-7. def update_item_price(self, nama_item):
+11. def update_item_price(self, nama_item):
+    
    Merupakan sebuah method yang digunakan untuk mengubah harga_item yang sudah ditambahkan ke dalam dict.
    Method ini menggunakan inputan nama_item yang bertype string. Jika input bukan string maka akan muncul 'Input nama item tidak valid, silahkan input kembali dengan type data String'.
    Kemudian method akan melakukan eksekusi inputan update_harga dan bertype integer. Jika method ini berhasil di jalankan maka harga_item dalam dict akan diubah sesuai dengan update_harga.
    Method ini juga secara otomatis akan mengubah nilai dict['Total Harga'], yang merupakan perkalian antara jumlah_item dan harga_item.
    Selanjutnya akan ditampilkan dalam bentuk tabel.
 
-8. def delete_item(self, nama_item):
+13. def delete_item(self, nama_item):
+    
     Merupakan sebuah method yang digunakan untuk menghapus satu set belanja (nama_item, jumlah_item dan harga_item).
     Method ini menggunakan inputan nama_item yang bertype string. Jika input bukan string maka akan muncul 'Input nama item tidak valid, silahkan input kembali dengan type data String'.
     Jika method ini berhasil di jalankan maka untuk 1 baris belanja dengan nama_item sesuai inputan akan dihapus dari dict.
     Selanjutnya akan ditampilkan dalam bentuk tabel.
     
-9. def reset_transaction(self):
+15. def reset_transaction(self):
+    
     Merupakan method yang digunakan untuk membatalkan semua transaksi. Jika method ini dijalankan maka seluruh nilai values dalam dict akan dihapus.
     Dan tampilan dalam list_belanja akan kosong dan menyisakan ['key'] saja.
     
-10. def check_order(self):
+17. def check_order(self):
+    
     Merupakan method yang digunakan untuk memeriksa keranjang belanja dari proses yang sudah dijalankan sebelumnya.
     Dengan method ini kondisi terakhir dict list_belanja akan ditampilkan dalam bentuk tabel.
     
-11. def total_price(self):
+19. def total_price(self):
+    
     Merupakan sebuah method yang digunakan untuk menghitung total nilai belanja, diskon yang didapat, serta total pembayaran yang harus dilakukan.
     Dalam method ini ada ketentuan tambahan, yaitu:
     - Jika total belanja lebih besar dari 500.000 maka akan mendapatkan diskon sebesar 10% dari total belanja
@@ -77,6 +86,11 @@ Fitur-fitur yang dibutuhkan adalah:
 
 ## Test Case
 1. Test Case 1
-2. Test Case 2
-3. Test Case 3
-4. Test Case 4
+
+   Customer ingin menambahkan dua item baru menggunakan method add_item. Item yang akan ditambahkan adalah:
+   * Nama item: Ayam Goreng, Qty: 2, Harga: 20.000
+   * Nama item: Pasta Gigi, Qty: 3, Harga: 15.000
+   
+3. Test Case 2
+4. Test Case 3
+5. Test Case 4
