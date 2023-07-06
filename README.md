@@ -126,4 +126,4 @@ Fitur-fitur yang dibutuhkan adalah:
 
    Output:
 
-   ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/reset%20transaction.png?raw=true)
+   ![alt text](https://github.com/tikumsatu/Self-Cashier-Pacmann/blob/main/dokumentasi/total%20price.png?raw=true)
